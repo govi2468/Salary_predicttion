@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <form action="{{url_for('salary_predict')}}" method="POST">
+            <input id="first" name="YearsExperience" type="number" required="required">
+            <button id="sub" type="submit">Predict</button>
+<p>@Govind Labhshetwar </p>
+</form>
+    <h3>{{ prediction_text }}<h3>
+</body>
+</html>
